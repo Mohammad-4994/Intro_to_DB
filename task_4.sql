@@ -59,4 +59,8 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_NAME = 'Books'
+<<<<<<< HEAD
     AND TABLE_SCHEMA = 'alx_book_store' ;
+=======
+    AND TABLE_SCHEMA = 'alx_book_store' ;
+>>>>>>> 06415cb8eda2f4592f6e2c1c65891f6f4669de04
