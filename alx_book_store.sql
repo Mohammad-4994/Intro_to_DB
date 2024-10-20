@@ -12,7 +12,7 @@ publication_date DATE
 
 CREATE TABLE Authors (
 
-author_id int primary key ,
+author_id int PRIMARY KEY ,
 author_name varchar(215) not null
 
 );
