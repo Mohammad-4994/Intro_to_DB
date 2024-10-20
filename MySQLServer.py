@@ -31,4 +31,8 @@ def create_database():
         else:
             print(f"Error: {err}")
     else:
+<<<<<<< HEAD
         conn.close()
+=======
+        conn.close()
+>>>>>>> 3cc79d3639c475fc4d96366665b2c75310db9adb
