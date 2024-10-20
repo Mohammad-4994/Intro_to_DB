@@ -29,17 +29,16 @@ address TEXT
 
 CREATE TABLE Orders (
 
-order_id int PRIMARY KEY ,
-customer_id VARCHAR(215) not null,
-email VARCHAR(215) unique ,
-address text 
+order_id INT PRIMARY KEY ,
+customer_id INT ,
+order_date DATE
 
 );
 
 CREATE TABLE Order_Details (
 
 orderdetailid int PRIMARY KEY ,
-order_id int not null,
+order_id INT not null,
 book_id int not null ,
 quantity DOUBLE
 
