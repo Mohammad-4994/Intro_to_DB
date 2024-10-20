@@ -56,7 +56,7 @@ SELECT
     COLUMN_DEFAULT AS 'Default',
     EXTRA AS 'Extra'
 FROM 
-    information_schema.COLUMNS
+    INFORMATION_SCHEMA.COLUMNS
 WHERE 
-    TABLE_NAME = 'books'
-    AND TABLE_SCHEMA = DATABASE();
+    TABLE_NAME = 'Books'
+    AND TABLE_SCHEMA = 'alx_book_store' ;
